@@ -1,0 +1,26 @@
+{
+  "plugin_id": "aspose.words.java",
+  "sources": {
+    "docs": {
+      "revision": "1e946b4eb8fa35e32254ff270a559e62e1cb4091",
+      "discovered": 424,
+      "extracted": 424,
+      "chunks": 755,
+      "symbols": 0,
+      "warnings": {
+        "UNCLOSED_CODE_FENCE": 5
+      }
+    },
+    "apiref": {
+      "revision": "90aec069cd39035448e7b1fe4358c542188b7a76",
+      "discovered": 836,
+      "extracted": 836,
+      "chunks": 19976,
+      "symbols": 18439,
+      "warnings": {
+        "CODE_FENCE_RECOVERED_AT_MEMBER_HEADING": 7
+      }
+    }
+  },
+  "errors": []
+}

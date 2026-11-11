@@ -1,0 +1,38 @@
+{
+  "contract": "adcs.extraction.v1",
+  "plugin_id": "aspose.words.java",
+  "version": "0.1.0",
+  "product_id": "aspose.words",
+  "language": "java",
+  "title": "Aspose.Words for Java",
+  "worker": [
+    "{python}",
+    "-I",
+    "{plugin_dir}/worker.py"
+  ],
+  "sources": {
+    "docs": {
+      "repo_id": "aspose.words.java.docs",
+      "path": "sources/documentation",
+      "prefix": "en/java",
+      "layout": {
+        "layout_type": "doc_locale/programming_language/content"
+      },
+      "canonical_base_url": "https://docs.aspose.com/words/java",
+      "url": "https://github.com/aspose-words-mcp/docs.git",
+      "branch": "master"
+    },
+    "apiref": {
+      "repo_id": "aspose.words.java.apiref",
+      "path": "sources/api-reference",
+      "prefix": "english/java",
+      "layout": {
+        "layout_type": "doc_locale/programming_language/namespace"
+      },
+      "canonical_base_url": "https://reference.aspose.com/words/java",
+      "url": "https://github.com/aspose-words-mcp/reference.git",
+      "branch": "main"
+    }
+  },
+  "retrieval_profile": "retrieval-profile.json"
+}

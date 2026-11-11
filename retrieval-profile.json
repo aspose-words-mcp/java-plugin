@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "profile_id": "aspose.words.java.retrieval",
+  "version": "1.0.0",
+  "product_id": "aspose.words",
+  "language": "java",
+  "rules": [
+    {
+      "rule_id": "classic-mail-merge",
+      "all_terms": [
+        "mail",
+        "merge"
+      ],
+      "exclude_terms": [
+        "region",
+        "regions",
+        "image",
+        "images",
+        "lowcode",
+        "low code"
+      ],
+      "preferred_symbols": [
+        "com.aspose.words.MailMerge.execute"
+      ]
+    },
+    {
+      "rule_id": "classic-mail-merge-regions",
+      "all_terms": [
+        "mail",
+        "merge",
+        "regions"
+      ],
+      "exclude_terms": [
+        "image",
+        "images",
+        "lowcode",
+        "low code"
+      ],
+      "preferred_symbols": [
+        "com.aspose.words.MailMerge.executeWithRegions"
+      ]
+    },
+    {
+      "rule_id": "word-to-pdf",
+      "all_terms": [
+        "pdf"
+      ],
+      "any_terms": [
+        "doc",
+        "docx",
+        "word",
+        "document"
+      ],
+      "any_phrases": [
+        "to pdf",
+        "as pdf"
+      ],
+      "exclude_terms": [],
+      "preferred_symbols": [
+        "com.aspose.words.Document.save",
+        "com.aspose.words.PdfSaveOptions"
+      ]
+    }
+  ],
+  "excluded_namespaces": [
+    "com.aspose.words.Comparer",
+    "com.aspose.words.ComparerContext",
+    "com.aspose.words.Converter",
+    "com.aspose.words.ConverterContext",
+    "com.aspose.words.MailMergeDataSource",
+    "com.aspose.words.MailMergeOptions",
+    "com.aspose.words.MailMerger",
+    "com.aspose.words.MailMergerContext",
+    "com.aspose.words.MergeFormatMode",
+    "com.aspose.words.Merger",
+    "com.aspose.words.MergerContext",
+    "com.aspose.words.Processor",
+    "com.aspose.words.ProcessorContext",
+    "com.aspose.words.Replacer",
+    "com.aspose.words.ReplacerContext",
+    "com.aspose.words.ReportBuilder",
+    "com.aspose.words.ReportBuilderContext",
+    "com.aspose.words.ReportBuilderOptions",
+    "com.aspose.words.SignerContext",
+    "com.aspose.words.SplitCriteria",
+    "com.aspose.words.SplitOptions",
+    "com.aspose.words.Splitter",
+    "com.aspose.words.SplitterContext",
+    "com.aspose.words.Watermarker",
+    "com.aspose.words.WatermarkerContext"
+  ]
+}
